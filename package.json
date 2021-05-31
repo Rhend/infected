@@ -1,0 +1,29 @@
+{
+  "name": "infected",
+  "version": "1.0.0",
+  "description": "incremental infected game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhend/infected.git"
+  },
+  "keywords": [
+    "idle",
+    "incremental",
+    "infected"
+  ],
+  "author": "Benjamin 'Rhend' Consol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rhend/infected/issues"
+  },
+  "homepage": "https://github.com/Rhend/infected#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12"
+  }
+}
