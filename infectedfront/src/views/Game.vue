@@ -1,17 +1,10 @@
 <template>
-<v-app>
   <div>
-    Bienvenue dans l'univers de Infected <br />
-    Nombres de personnes infectés : {{ infectedCount }}
-  </div>
-      <v-alert
-        border="top"
-        color="red lighten-2"
-        dark
-      >
-        I'm an alert with a top border and red color
-      </v-alert>
-  
+    <div>
+      Bienvenue dans l'univers de Infected <br />
+      Nombres de personnes infectés : {{ infectedCount }}
+    </div>
+    
     <div v-if="infectedCount > 10 && infectedCount < 30">
       Les gens commence à agir bizzarement..
     </div>
@@ -21,12 +14,12 @@
     </div>
 
     <div v-if="invadeQuartier" class="block">Nombre d'infecté dans le quartier : {{ invadeQuartierCount }}</div>
-</v-app>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
+  name: "Game",
   data() {
     return {
       infectedCount: 0,
@@ -55,5 +48,11 @@ export default {
       }
     },
   },
-}
+};
 </script>
+<style lang="css">
+  .block{
+    border: 1px dotted black;
+    margin: 50px;
+  }
+</style>

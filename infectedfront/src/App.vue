@@ -1,15 +1,24 @@
 <template>
   <v-app>
-    <Home />
+    <HeaderRessource/>
+
+    <v-main>
+      <router-view />
+    </v-main>
   </v-app>
 </template>
 
 <script>
-import Home from '@/views/Home.vue';
+import HeaderRessource from "@/components/HeaderRessource.vue";
+
 export default {
-  name:"App",
+  name: "App",
   components:{
-    Home 
-  }
-}
+    HeaderRessource,
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
