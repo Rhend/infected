@@ -1,19 +1,19 @@
 <template>
-  <div>
-    <HeaderRessource />
-    <GeneratingRessource />
-  </div>
+    <ChapterZero class="blackBg"/>
 </template>
 
 <script>
-import HeaderRessource from "@/components/HeaderRessource.vue";
-import GeneratingRessource from "@/components/GeneratingRessource.vue";
+import ChapterZero from "@/components/Chapters/ChapterZero.vue";
 
 export default {
   name: "Game",
   components: {
-    HeaderRessource,
-    GeneratingRessource,
+    ChapterZero,
   },
 };
 </script>
+<style lang="scss">
+    .blackBg{
+        background-color: black;
+    }
+</style>
