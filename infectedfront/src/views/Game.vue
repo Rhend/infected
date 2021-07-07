@@ -1,7 +1,7 @@
 <template>
-  <div>    
-    <HeaderRessource/>
-    <GeneratingRessource/>
+  <div>
+    <HeaderRessource />
+    <GeneratingRessource />
   </div>
 </template>
 
@@ -11,7 +11,7 @@ import GeneratingRessource from "@/components/GeneratingRessource.vue";
 
 export default {
   name: "Game",
-  components:{
+  components: {
     HeaderRessource,
     GeneratingRessource,
   },
