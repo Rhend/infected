@@ -1,11 +1,13 @@
 <template>    
-      <v-col
-        class="align-center text-center fill-height white--text"
-        cols="12"
+
+      <v-row
+        class="fill-height white--text text-h1 animate__animated animate__fadeOut"
         v-if="loading"
+        justify="center"
+        align="center"
       >
         Chapter 0 : LABO
-      </v-col>
+      </v-row>
       <v-col
         class="text-center fill-height"
         cols="12"
