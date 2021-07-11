@@ -1,10 +1,9 @@
 <template>
-    <ChapterZero class="blackBg"/>
+  <ChapterZero />
 </template>
 
 <script>
 import ChapterZero from "@/components/Chapters/ChapterZero.vue";
-
 export default {
   name: "Game",
   components: {
@@ -12,8 +11,4 @@ export default {
   },
 };
 </script>
-<style lang="scss">
-    .blackBg{
-        background-color: black;
-    }
-</style>
+<style lang="scss"></style>

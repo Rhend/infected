@@ -46,6 +46,7 @@ export default {
       setInterval(() => {
         if (this.infectedTime === 100) {
           this.infectedTime = 0;
+
           this.infectedCount++;
         } else {
           this.infectedTime += 1;
